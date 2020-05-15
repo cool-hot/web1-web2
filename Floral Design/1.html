@@ -3,48 +3,58 @@
 <head>
   <title>Floral design-Arrangement</title>
   <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      border-right:1px solid gray;
+      width:100px;
+      margin:0;
+      padding:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-left:33px;
+    }
+    #grid #article{
+      padding-left:25px;
+    }
+  </style>
 </head>
 <body>
   <h1><a href="index.html">Floral design</h1></a>
+  <div id="grid">
   <ol>
     <li><a href="1.html">Arrangement</li></a>
     <li><a href="2.html">Bouquet </li></a>
     <li><a href="3.html">Styles of floral design</li></a>
   </ol>
-  <h2>Arrangement</h2>
-  <p><a href="https://www.thefreedictionary.com/floral+arrangement" target="_blank" title="Flower arrangement">
-Floral arrangement - a decorative arrangement of flowersfloral arrangement</a> - a decorative arrangement of flowers
-flower arrangement
-bouquet, corsage, nosegay, posy - an arrangement of flowers that is usually given as a present
-decoration, ornament, ornamentation - something used to beautify
-flower chain - flowers strung together in a chain
-spray - flower arrangement consisting of a single branch or shoot bearing flowers and foliage
-chaplet, coronal, lei, wreath, garland - flower arrangement consisting of a circular band of foliage or flowers for ornamental purposes
-arrangement - an orderly grouping (of things or persons) considered as a unit; the result of arranging; "a flower arrangement"
-<img src="Floral arrangement.jpg">
-  </p>
-  <p>
-    <div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://floral-design.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">
-comments powered by Disqus.</a></noscript>
-</p>
+  <div id="article">
+      <h2>Arrangement</h2>
+      <p><a href="https://www.thefreedictionary.com/floral+arrangement" target="_blank" title="Flower arrangement">
+      Floral arrangement - a decorative arrangement of flowersfloral arrangement</a> - a decorative arrangement of flowers
+      flower arrangement
+      bouquet, corsage, nosegay, posy - an arrangement of flowers that is usually given as a present
+      flower chain - flowers strung together in a chain
+      spray - flower arrangement consisting of a single branch or shoot bearing flowers and foliage
+      chaplet, coronal, lei, wreath, garland - flower arrangement consisting of a circular band of foliage or flowers for ornamental purposesarrangement - an orderly grouping (of things or persons) considered as a unit; the result of arranging; "a flower arrangement"
+      </p>
+      </div>
+</div>
 </body>
 </html>
